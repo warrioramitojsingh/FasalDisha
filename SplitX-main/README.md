@@ -33,16 +33,7 @@ SplitX is a full-stack expense-sharing application that helps groups manage shar
 **API Documentation**
 - Swagger / OpenAPI
 
-## Run Locally
-
-### 1. Clone the repository
-
-```bash
-git clone https://github.com/jaygohil1/SplitX.git
-cd SplitX
-```
-
-### 2. Configure MySQL
+### 1. Configure MySQL
 
 Create the database:
 
@@ -52,7 +43,7 @@ CREATE DATABASE splitxdb;
 
 Configure your database connection in `src/main/resources/application.properties`. Use your own local credentials and avoid committing passwords or secrets.
 
-### 3. Start the backend
+### 2. Start the backend
 
 ```bash
 .\mvnw.cmd spring-boot:run
@@ -62,7 +53,7 @@ Backend: `http://localhost:8080`
 
 Swagger UI: `http://localhost:8080/swagger-ui/index.html`
 
-### 4. Start the frontend
+### 3. Start the frontend
 
 Open another terminal:
 
